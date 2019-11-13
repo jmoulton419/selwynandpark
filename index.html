@@ -1,21 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio PRactice for GitHub</title>
+	<title>Home | Julia Moulton Web Development</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css"> <!-- browser css reset file --> 
+
+	<!--stylesheets for your pages --> 
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="home.css">
+
 </head>
-<body>
-	<h1>Practicing pushing up files to Github</h1>
-
-	<div>
-		git status - checks the status of the respository and compares it to the remote respository
-
-		git add [filename] - tracks the files in your local respository that has changed and ass it to the changelist 
-
-		git commit -m [message] - creates a commmit with a message attached 
-
-		git push origin [branchname] - pushes your commit frmo your local repository to the reomote repository in github
-
+<body id="home">
+	<h1>Welcome, My name is Julia and I'm a web developer</h1>
+<nav>
+	<ul>
+		<a href="about.html">
+			<li>About Me</li>
+		</a>
+		<a href="contact.html">
+			<li>Contact Me</li>
+		</a>
+	</ul>
 		
-	</div>
+</nav>
+
+<button>This is not a styled button</button>
+<input type="button" class="styled-button" value="This is a styled button!">
+<br>
+<br>
+<label for="prompt">What is your name?</label>
+<input id="prompt" type="text">
+<br>
+<br>
+<!-- Label for the input with the ID checkInput --> 
+<label for="checkInput">Checkbox - Click Me!</label>
+<input id="checkInput" name="checkGroup" type="checkbox">
+<br>
+<label for="checkInput2">Checkbox - Click Me 2!</label>
+<input id="checkInput2" name="checkGroup" type="checkbox">
+<br>
+<label for="checkInput3">Checkbox - Click Me 3!</label>
+<input id="checkInput3" name="checkGroup" type="checkbox">
+
+<br>
+<br>
+<label for="radioButton">Radio Button - Click me! </label>
+<input id="radioButton" name="radioGroup" type="radio" value="click me">
+<br>
+<label for="radioButton2">Radio Button - Click me! </label>
+<input id="radioButton2" name="radioGroup" type="radio" value="click me">
+<br>
+<label for="radioButton3">Radio Button - Click me! </label>
+<input id="radioButton3" name="radioGroup" type="radio" value="click me">
+<br>
+<br>
+<form>
+		<label for="inputForm">what is your occupation?</label>
+		<br>
+		<input id="inputForm" type="text" name="">
+		<br>
+
+		<label for="dropdownList">What is your gender?</label>
+		<br>
+		<select id="dropdownList">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			<option value="Other">Other</option>
+		</select>
+
+		<label for="Comment">Please add any comments below:</label>
+		<br>
+		<textarea id="Comment"></textarea>
+		<br>
+		<br>
+		<button type="button" value="submit" >Submit</button>
+</form>
 </body>
 </html>

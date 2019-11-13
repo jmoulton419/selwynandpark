@@ -1,0 +1,49 @@
+body {
+	font-family: 'Fjalla One', sans-serif;
+	margin: 0;
+}
+
+nav{
+	background-color: cornflowerblue;
+	position: relative;
+	box-shadow: 2px 7px rgba(0,0,0,.8);
+}
+ul {
+
+	font-size: 22px;
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+	color: white; /*#fff */
+	text-align: center;
+	padding: 10px 0; 
+}
+
+#dropdownHover {
+	/*position: relative;*/
+}
+
+li {
+	display: inline-block;
+	width: 10%
+}
+
+#dropdownHover:hover #dropdown {
+	display: block;
+}
+
+#dropdown {
+	display: none;
+	position: absolute;
+	color: blue; 
+	left: 61%
+}
+
+#dropdown li {
+	display: block;
+	width: 100%
+}
+
+h1 {
+	text-shadow: 2px 4px 9px lightblue
+}
